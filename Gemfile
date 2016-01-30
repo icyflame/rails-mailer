@@ -44,5 +44,4 @@ gem 'devise'
 gem 'rails_admin'
 gem 'cancan'
 
-gem 'jquery-rails'
 gem 'jquery-ui-rails'
