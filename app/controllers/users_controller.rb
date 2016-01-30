@@ -13,6 +13,7 @@ class UsersController < ApplicationController
 
 		if temp.save
 			puts "The User was saved!"
+      UserNotifier.send_signup_email(temp).deliver
 			redirect_to root_path, flash: { notice: "The user was saved in the DB!" }
 		else
 			puts "Not saved!"
