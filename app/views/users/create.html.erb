@@ -1,8 +1,12 @@
 <h1>Register yourself as a new user</h1>
-<h2> <%= ENV['SENDGRID_USERNAME'] %> is your sendgrid username </h2>
+
+<h2>We will send you one email to confirm that you have signed up</h2>
+
+<h2> My sendgrid username is: <%= ENV['SENDGRID_USERNAME'] %> </h2>
 <%= form_tag("/users", method: "post") do %>
 	<input type="text" placeholder="Name" name="username"> <br>
 	<input type="text" placeholder="Email ID" name="email"> <br>
 	<input type="text" placeholder="Phone Number" name="phone"> <br>
 	<input type="submit">
 <% end %>
+
