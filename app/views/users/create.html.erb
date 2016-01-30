@@ -1,0 +1,7 @@
+<h1>Register yourself as a new user</h1>
+<%= form_tag("/users", method: "post") do %>
+	<input type="text" placeholder="Name" name="username"> <br>
+	<input type="text" placeholder="Email ID" name="email"> <br>
+	<input type="text" placeholder="Phone Number" name="phone"> <br>
+	<input type="submit">
+<% end %>
