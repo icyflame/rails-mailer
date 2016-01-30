@@ -1,8 +1,13 @@
-# Rails Application Boilerplate
+# Rails Mailer _WIP_
 
-> The boilerplate that I start all my Rails projects with
+> A sample application that uses a Rails application for Sendgrid Mailers.
 
-Inspired by [@sindresorhus'](https://github.com/sindresorhus) [node-module-boilerplate](https://github.com/sindresorhus/node-module-boilerplate).
+I was finally able to configure my domain icyflame.me on Sendgrid!
+
+So, this application tests out whether sendgrid works with Rails mailers.
+
+_WIP_: Currently, my sendgrid account is not provisioned and I can't
+send email through it. Once that is done, this will become operational.
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-ruby.svg)](http://forthebadge.com)
 
